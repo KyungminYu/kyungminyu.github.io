@@ -1,0 +1,29 @@
+title: Kyungmin Yu
+description: Software engineering, distributed systems, and AI runtime notes
+url: "https://kyungminyu.github.io"
+baseurl: ""
+
+theme: minima
+
+author:
+  name: Kyungmin Yu
+  email: ykmyou@gmail.com
+
+show_excerpts: true
+permalink: /blog/:year/:month/:day/:title/
+
+minima:
+  skin: auto
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/KyungminYu"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/kyungmin-yu-62b360154/"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+

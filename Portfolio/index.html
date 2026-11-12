@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kyungmin Yu — software engineer building reliable product systems and applied AI experiences." />
+    <meta name="theme-color" content="#f4f1ea" />
+    <meta property="og:title" content="Kyungmin Yu — Software Engineer" />
+    <meta property="og:description" content="Product engineering, systems performance, and applied AI." />
+    <meta property="og:url" content="https://kyungminyu.github.io/Portfolio/" />
+    <link rel="canonical" href="https://kyungminyu.github.io/Portfolio/" />
+    <title>Kyungmin Yu — Software Engineer</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="/">Blog</a>
+      </nav>
+      <a class="header-contact" href="mailto:ykmyou@gmail.com">Let’s talk <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow reveal"><span class="status-dot"></span> Software Engineer · Los Angeles / Seoul</div>
+        <h1 id="hero-title" class="reveal">Software engineer building <br /><em>reliable, useful systems.</em></h1>
+        <div class="hero-bottom reveal">
+          <p>
+            I’m Kyungmin, a software engineer at Samsung Electronics currently on academic
+            leave to pursue an M.S. in Computer Science at USC. My work spans product
+            engineering, systems performance, and applied AI.
+          </p>
+          <a class="circle-link" href="#work" aria-label="View selected work"><span>View<br />work</span><b>↓</b></a>
+        </div>
+        <div class="hero-rule reveal"><span>Kyungmin Yu</span><span>BUILD · MEASURE · REFINE</span></div>
+      </section>
+
+      <section id="work" class="section projects" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <span class="section-number">01</span>
+          <div>
+            <p class="kicker">Selected work</p>
+            <h2 id="work-title">Selected projects</h2>
+          </div>
+        </div>
+
+        <article class="project project-featured reveal">
+          <div class="project-index">P01</div>
+          <div class="project-copy">
+            <div class="project-meta"><span>Applied ML</span><span>2026</span></div>
+            <h3>Lightweight Multilingual NER</h3>
+            <p>
+              An end-to-end workbench for training, evaluating, and deploying multilingual
+              named-entity recognition models—from compact scratch models to XLM-R and ONNX inference.
+            </p>
+            <ul class="tags" aria-label="Technologies">
+              <li>PyTorch</li><li>Transformers</li><li>ONNX</li><li>Android</li>
+            </ul>
+            <a class="text-link" href="https://github.com/KyungminYu/NER-STUDY" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+          </div>
+          <div class="project-visual ner-visual" aria-hidden="true">
+            <div class="token-line"><span class="token person">Kyungmin</span><span> builds intelligent</span></div>
+            <div class="token-line"><span>products in </span><span class="token place">Seoul</span><span>.</span></div>
+            <div class="entity-key"><span><i class="person-dot"></i>PERSON</span><span><i class="place-dot"></i>LOCATION</span></div>
+            <div class="metric"><b>3</b><span>model families<br />one shared core</span></div>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project project-card reveal">
+            <div class="project-index">P02</div>
+            <div class="mini-visual planner-visual" aria-hidden="true">
+              <div class="screen"><span></span><span></span><span></span><b>PLAY</b></div>
+              <div class="signal s1"></div><div class="signal s2"></div><div class="signal s3"></div>
+            </div>
+            <div class="project-meta"><span>Android · Systems</span><span>2026</span></div>
+            <h3>SystemPlanner</h3>
+            <p>An Android control surface for orchestrating media and AV devices, with configurable layouts, device protocols, and release-ready variants.</p>
+            <ul class="tags"><li>Kotlin</li><li>Java</li><li>Android</li><li>Networking</li></ul>
+          </article>
+
+          <article class="project project-card reveal">
+            <div class="project-index">P03</div>
+            <div class="mini-visual search-visual" aria-hidden="true">
+              <div class="search-bar"><span></span><i></i></div>
+              <div class="result-lines"><b></b><span></span><span></span><b></b><span></span></div>
+              <div class="rank">RANK<br /><strong>01</strong></div>
+            </div>
+            <div class="project-meta"><span>Information Retrieval</span><span>2026</span></div>
+            <h3>Search & Web Intelligence</h3>
+            <p>Coursework and experiments in web crawling, search-result analysis, ranking evaluation, and practical information retrieval.</p>
+            <ul class="tags"><li>Python</li><li>Crawling</li><li>Ranking</li><li>Evaluation</li></ul>
+          </article>
+
+          <article class="project project-card reveal">
+            <div class="project-index">P04</div>
+            <div class="project-meta"><span>Cal Hacks 13.0</span><span>2026</span></div>
+            <h3>SYNC</h3>
+            <p>A two-person hackathon project exploring workflow coordination through a coffee-shop simulation. I turned a Figma prototype into a React/Phaser dashboard backed by SpacetimeDB and integrated the Claude API for staffing decisions.</p>
+            <ul class="tags" aria-label="Technologies"><li>TypeScript</li><li>React</li><li>Phaser</li><li>SpacetimeDB</li><li>Claude API</li><li>Figma</li></ul>
+            <div class="project-links">
+              <a class="text-link" href="https://devpost.com/software/sync-9o73sk" target="_blank" rel="noreferrer" aria-label="View SYNC project on Devpost">Project &amp; demo <span>↗</span></a>
+              <a class="text-link" href="https://github.com/KyungminYu/SYNC" target="_blank" rel="noreferrer" aria-label="View SYNC source code on GitHub">Source code <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project project-card reveal">
+            <div class="project-index">P05</div>
+            <div class="algorithm-mark" aria-hidden="true">O<span>(</span>n log n<span>)</span></div>
+            <div class="project-copy">
+              <div class="project-meta"><span>Computer Science</span><span>Ongoing</span></div>
+              <h3>Algorithms Archive</h3>
+              <p>A long-running collection of solutions spanning graphs, dynamic programming, computational geometry, strings, flows, trees, and advanced data structures.</p>
+              <ul class="tags"><li>C++</li><li>BOJ</li><li>Codeforces</li><li>ICPC</li></ul>
+              <a class="text-link" href="https://github.com/KyungminYu/Algorithm" target="_blank" rel="noreferrer">Explore solutions <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience" aria-labelledby="experience-title">
+        <div class="section-heading reveal">
+          <span class="section-number">02</span>
+          <div>
+            <p class="kicker">Experience</p>
+            <h2 id="experience-title">Work experience</h2>
+          </div>
+        </div>
+
+        <div class="experience-layout">
+          <aside class="experience-summary reveal">
+            <div class="big-stat">8<span>+</span></div>
+            <p>years building production software at Samsung Electronics</p>
+          </aside>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2019 — PRESENT</div>
+              <div>
+                <p class="role-company">Samsung Electronics · MX Division · Currently on academic leave</p>
+                <h3>Software Engineer, Samsung Notes</h3>
+                <p>Building reliable document experiences across Android and Windows, with a focus on performance, cross-device collaboration, and applied AI.</p>
+                <div class="impact-grid">
+                  <div><b>Performance</b><span>Protected startup responsiveness across major releases</span></div>
+                  <div><b>Applied ML</b><span>Built and validated a bilingual document-classification pipeline</span></div>
+                  <div><b>GenAI</b><span>Delivered structured, editable document-generation experiences</span></div>
+                </div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">2018 — 2019</div>
+              <div>
+                <p class="role-company">Samsung Electronics · Product Development</p>
+                <h3>Test Infrastructure & Reliability</h3>
+                <p>Built self-healing automation for a large-scale device certification test farm, improving operational reliability and shortening certification cycles.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-title">
+        <div class="about-copy reveal">
+          <span class="section-number">03</span>
+          <p class="kicker">A little more</p>
+          <h2 id="about-title">A little about me</h2>
+          <p class="about-lead">
+            I enjoy the part where a research idea has to survive contact with a real product:
+            latency budgets, migrations, memory limits, imperfect data, and actual users.
+          </p>
+        </div>
+        <div class="about-details reveal">
+          <div class="detail-block">
+            <span>Education</span>
+            <p><b>University of Southern California</b><br />M.S. Computer Science · 2028</p>
+            <p><b>Sangmyung University</b><br />B.S. Computer Science · 1st in Department</p>
+          </div>
+          <div class="detail-block">
+            <span>Recognition</span>
+            <p>5× Samsung Outstanding Programmer Award</p>
+            <p>2 peer-reviewed publications · 5 patent filings</p>
+            <p>ACM ICPC Daejeon Regional participant</p>
+          </div>
+          <div class="detail-block">
+            <span>Core toolkit</span>
+            <p>C++ · Java · Kotlin · Python · PyTorch · Android · ONNX · Linux · SQL</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" aria-labelledby="contact-title">
+        <p class="kicker reveal">Get in touch</p>
+        <h2 id="contact-title" class="reveal">Always happy to talk <br /><em>about hard problems.</em></h2>
+        <div class="contact-links reveal">
+          <a href="mailto:ykmyou@gmail.com">Email <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/kyungmin-yu-62b360154/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <a href="https://scholar.google.com/citations?user=5MoA1nkAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar <span>↗</span></a>
+          <a href="https://github.com/KyungminYu" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Kyungmin Yu</span>
+      <span>Designed & built with care</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
